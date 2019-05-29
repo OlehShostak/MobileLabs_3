@@ -3,25 +3,26 @@
 	android:orientation="vertical"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
-	<TextView
-		android:text="0"
-		android:textSize="50sp"
-		android:gravity="center"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/txtNumber"
-		android:layout_marginBottom="20dp"
-		android:layout_marginTop="20dp" />
 	<Button
-		android:text="Increment"
+		android:text="Save"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_below="@id/txtNumber"
-		android:id="@+id/btnInc" />
+		android:id="@+id/btnsave" />
 	<Button
-		android:text="Decrement"
+		android:text="Load"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_below="@id/btnInc"
-		android:id="@+id/btnDec" />
+		android:id="@+id/btnload" />
+	<Button
+		android:text="Check"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btncheck" />
+
+	<ListView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/myListView" />
+	
+	
 </LinearLayout>
